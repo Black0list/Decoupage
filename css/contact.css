@@ -27,6 +27,7 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: 0.4s;
 }
 
 .contact form button:hover {

@@ -17,6 +17,9 @@ nav {
     width: 100%;
     top: 0;
     z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 nav ul {
@@ -31,6 +34,13 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    transition: 0.4s;
+}
+
+nav ul li a:hover {
+    color: rgb(241, 88, 42);
+    text-decoration: none;
+    
 }
 
 .hero {
@@ -58,6 +68,15 @@ nav ul li a {
     padding: 10px 20px;
     background-color: #ff5733;
     color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+.hero-btn:hover {
+    padding: 10px 20px;
+    background-color: #ff3d12;
+    color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
 }
@@ -100,6 +119,7 @@ footer {
 .footer-container a {
     color: #333;
     text-decoration: none;
+    transition: 0.4s;
 }
 
 .footer-container a:hover {

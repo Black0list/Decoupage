@@ -39,8 +39,10 @@
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
+    transition: 0.4s;
 }
 
 .card button:hover {
     background-color: #ff7733;
+    
 }
